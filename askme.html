@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      color: #343a48;
+    }
+
+    .head {
+      font-size: 3rem;
+      font-weight: 500;
+      /* margin-b: 10rem; */
+      margin-left: 1rem;
+      color: navy;
+    }
+
+    .askme {
+      width: 250px;
+      margin-left: 700px;
+      margin-top: 1rem;
+      padding: 4px;
+    }
+
+    .accordion {
+      width: 600px;
+      margin: 100px auto;
+
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .item {
+      padding: 4px;
+      box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      column-gap: 24px;
+    }
+
+    .number,
+    .text {
+      font-size: 24px;
+      font-weight: 500;
+      /* color: #087f5b; */
+    }
+
+    .hidden-box {
+      grid-column: 2;
+      display: none;
+    }
+
+    .hidden-box p {
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .open {
+      border-top: 4px solid #087f5b;
+    }
+
+    .open .hidden-box {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="head">
+    <a href="#"> ASK ME</a>
+  </header>
+  <section>
+    <input type="search" class="askme" placeholder="ASK ME" />
+
+  </section>
+  <section>
+    <div class="accordion">
+      <div class="item">
+        <p class="number">01</p>
+        <p class="text">WHAT's favourite food of Rwandans?
+        </p>
+        <icon></icon>
+        <div class="hidden-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde commodi
+            excepturi <br>autem eum odio, quia quasi, expedita incidunt nulla,
+            molestiae vel facilis maiores sapient
+            e
+            id inventore minus est consectetur!hfjdjdjhdjvvhdiufhdifdufvdhdjvuhjvfuifvdhfjv
+            jdvdijjffjfk ffjfirgudhevyuejfekgujrifolffmlfkeoiehijwsskdidjcigjhmthgitjhtghojgk
+          </p>
+        </div>
+      </div>
+
+      <div class="item open">
+        <p class="number">02</p>
+        <p class="text">What language Rwandan speak?
+        </p>
+        <icon></icon>
+        <div class="hidden-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde commodi
+            excepturi <br>autem eum odio, quia quasi, expedita incidunt nulla,
+            molestiae vel facilis maiores sapient
+            e
+            id inventore minus est consectetur!hfjdjdjhdjvvhdiufhdifdufvdhdjvuhjvfuifvdhfjv
+            jdvdijjffjfk ffjfirgudhevyuejfekgujrifolffmlfkeoiehijwsskdidjcigjhmthgitjhtghojgk
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <p class="number">03</p>
+        <p class="text">what's culture of Rwandans?
+        </p>
+        <icon></icon>
+        <div class="hidden-box">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione unde commodi
+            excepturi <br>autem eum odio, quia quasi, expedita incidunt nulla,
+            molestiae vel facilis maiores sapient
+            e
+            id inventore minus est consectetur!hfjdjdjhdjvvhdiufhdifdufvdhdjvuhjvfuifvdhfjv
+            jdvdijjffjfk ffjfirgudhevyuejfekgujrifolffmlfkeoiehijwsskdidjcigjhmthgitjhtghojgk
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

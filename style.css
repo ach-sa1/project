@@ -1,0 +1,160 @@
+/* main{
+  background-image: linear-gradient( to right bottom, rgba(0, 5, 48, 0.35), rgba(1, 12, 34, 0.35)), url(virunga-mountains-rwanda.jpg);
+} */
+ 
+ .body{
+   /* background-color: rgb(7, 80, 65); */
+}
+p{
+  font-size: 1.5rem;
+  color: #070125;
+}
+
+h2{
+  font-weight: 500;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    padding: 1rem;
+    background-color:#070125
+}
+.title{
+font-size: 2rem;
+font-weight: 700;
+margin-left: 10rem;
+color: #2c128b;
+cursor: pointer;
+}
+.title:hover{
+color: rgb(38, 168, 12);
+}
+
+.visit{
+    color: rgba(41, 138, 3, 0.822);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.main-nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-right: 2rem;
+  }
+  
+  .main-nav-link:link, .main-nav-link:visited{
+  text-decoration: none;
+  display: inline-block;
+  color: yellowgreen;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s;
+  }
+  
+  .main-nav-link:hover, .main-nav-link:active{
+  color: #ffd725;
+  }
+
+  
+.SEARCH{
+   margin-left: 68rem;
+   margin-top: 0.9rem;
+   width: 250px;
+      padding: 4px;
+}
+
+.img{
+    width: 19%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.gallery-item img{
+  /* display: block; */
+  width: 19%;
+  transition: all 1s;
+}
+
+
+.gallery-item img:hover{
+  transform: scale(1.1);
+}
+.head4{
+    margin-bottom: 2rem;
+}
+.footer{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    border-top: 1.5px solid #eee; 
+    background-color:#070125;
+    color: rgba(41, 138, 3, 0.822);
+  }
+  .grid{
+    display: grid;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .grid--footer{
+     grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr; 
+  }
+  
+  .logo-col{
+    display: flex;
+     flex-direction: column; 
+  }
+  
+  .footer-logo{
+    display: block;
+    /* margin-bottom: 2rem; */
+  }
+  
+  .copyright{
+    font-size: 1.3rem;
+    color: #767676;
+    line-height: 1;
+    margin-top: auto;
+  }
+  
+  .footer-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: rgba(41, 138, 3, 0.822);
+  }
+  
+  .contacts{
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  
+  .address{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .footer-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #767676;
+    transition: all 0.3s;
+   
+  }
+  
+  .footer-link:hover,
+  .footer-link:active{
+    color: #555;
+    image: url(virunga-mountains-rwanda.jpg);
+  }
